@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="Badoy Studio "
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/font2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="Selamat Belajar Membuat Aplikasi Android Menggunakan Android Studio "
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="35sp" />
+
+
+</LinearLayout>
